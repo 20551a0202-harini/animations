@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .ball1.link{
+      @keyframes animation name {
+        from{
+            transform: translate(0,-50px);
+        }
+        to{
+            transform: translate(0,50px);
+        }
+      }
+    }
+.ball1{
+background-color: red;
+width: 80px;
+height: 80px;
+color: red;
+border-radius:150px;
+transform: translate(0,-50px);
+animation-duration: 2s;
+display: inline-block;
+}
+.ball2{
+    background-color: red;
+width: 80px;
+height: 80px;
+color: red;
+border-radius:150px;
+transform: translateY(70px);
+
+display: inline-block;
+}
+.ball3{
+    background-color: red;
+width: 80px;
+height: 80px;
+color: red;
+border-radius:150px;
+transform: translate(0,-50px);
+transition-duration: infinite;
+display: inline-block;
+}
+</style>
+</head>
+<body>
+    <h1 class="ball1">.</h1>
+    <h1 class="ball2">.</h1>
+    <h1 class="ball3">.</h1>
+</body>
+</html>
